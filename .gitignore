@@ -1,18 +1,20 @@
-~
-.DS_Store
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
-# Python build / packaging
-*.egg-info/
-dist/
-build/
-
-# Virtual env
+# Virtual environments
 .venv/
 venv/
 
-# Python cache
-__pycache__/
-*.pyc
+# Packaging / build artifacts
+*.egg-info/
+build/
+dist/
 
-# Local patches / artifacts
+# Local artifacts
 codex.patch
+_push_test.txt
+
+# macOS
+.DS_Store
