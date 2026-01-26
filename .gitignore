@@ -1,2 +1,18 @@
 ~
 .DS_Store
+
+# Python build / packaging
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local patches / artifacts
+codex.patch

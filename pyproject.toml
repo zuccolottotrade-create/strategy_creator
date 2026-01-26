@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strategy_creator"
+version = "0.1.0"
+description = "OHLCV operational classification and strategy scaffolding"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=2.0",
+]
+
+[project.scripts]
+strategy-creator = "strategy_creator.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
