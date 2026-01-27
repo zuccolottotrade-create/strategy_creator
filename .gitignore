@@ -18,3 +18,6 @@ _push_test.txt
 
 # macOS
 .DS_Store
+
+# disabled debug tests
+tests/*.disabled
