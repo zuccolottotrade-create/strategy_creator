@@ -21,3 +21,12 @@ _push_test.txt
 
 # disabled debug tests
 tests/*.disabled
+
+# IDE / local
+.idea/
+
+# backups
+*.bak
+
+# presentations
+*.pptx
